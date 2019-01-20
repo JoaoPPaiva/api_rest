@@ -180,15 +180,10 @@ table, th, td {
         
         </table>
 
-
+<!--Inicio do Script-->
             <script>
-
-                        
-
-
-
+		    //Função para inserir o contacto na api
                     function insertcontacto(){
-                        
                         var xhttp = new XMLHttpRequest();
                                     xhttp.open("POST", "https://api-rest-229212.appspot.com/registo", true);
                                     xhttp.setRequestHeader('Content-type','application/json; charset=utf-8');
@@ -232,7 +227,7 @@ table, th, td {
 
                                 }
             
-            
+            //Função para ver a tabela de contactos na api
                     function vercontacto(){
                         console.log("so far so good");
                         var xhttp = new XMLHttpRequest();
